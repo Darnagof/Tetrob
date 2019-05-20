@@ -1,0 +1,18 @@
+Include (Obe);
+Flag (Map);
+Flag (Lock);
+
+Meta:
+    name:"Tetris"
+
+View:
+    pos:Vector2<SceneUnits>(0, 0)
+    size:1
+
+GameObjects:
+    board:
+        type:"Board"
+        Requires:
+            pos:
+                x:1
+                y:0

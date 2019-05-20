@@ -1,0 +1,16 @@
+Define Flag (Settings);
+    
+KeyBinding:
+    game:
+        UP_PRESSED:"Pressed:Up"
+        LEFT_PRESSED:"Pressed:Left"
+        RIGHT_PRESSED:"Pressed:Right"
+        DOWN_PRESSED:"Pressed:Down"
+        ESCAPE:"Pressed:R"
+        DOWN_HOLD:"Hold:Down"
+        LEFT_HOLD:"Hold:Left"
+        RIGHT_HOLD:"Hold:Right"
+        PAUSE:"Hold:Escape"
+
+Debug:
+    logLevel:1

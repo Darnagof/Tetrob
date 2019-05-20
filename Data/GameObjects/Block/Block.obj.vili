@@ -1,0 +1,13 @@
+Include (Obe);
+
+Block:
+    LevelSprite:
+        path:"Sprites/GameObjects/Block/block_white.png"
+        rect:Rect<ScenePixels>(0, 0, 32, 32)
+        xTransform:"Camera"
+        yTransform:"Camera"
+        layer:1.0
+        z-depth:1.0
+    Script:
+        source:"Data/GameObjects/Block/Block.lua"
+        priority:0.0

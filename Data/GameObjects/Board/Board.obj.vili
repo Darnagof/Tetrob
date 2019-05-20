@@ -1,0 +1,8 @@
+Board:
+    Script:
+        sources:[
+            "Data/GameObjects/Board/Board.lua"
+            "Data/GameObjects/Board/deepcopy.lua"
+        ] 
+
+        priority:0.0
